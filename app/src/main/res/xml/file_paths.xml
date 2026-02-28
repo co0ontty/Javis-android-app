@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- 外部存储_files/Documents -->
+    <external-files-path name="documents" path="Documents/" />
+    <!-- 外部存储_files 目录下所有文件 -->
+    <external-files-path name="external_files" path="." />
+</paths>

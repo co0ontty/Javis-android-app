@@ -5,11 +5,14 @@ import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.content.Context
 import android.os.Build
+import com.screenshotuploader.util.LogManager
 
 class ScreenshotUploaderApp : Application() {
 
     override fun onCreate() {
         super.onCreate()
+        LogManager.init(this)
+        LogManager.d("ScreenshotUploaderApp", "App 启动")
         createNotificationChannel()
     }
 
