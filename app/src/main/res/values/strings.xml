@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">截图上传助手</string>
+    <string name="notification_channel_name">截图服务</string>
+    <string name="notification_channel_desc">保持截图悬浮窗服务运行</string>
+    <string name="notification_title">截图上传助手正在运行</string>
+    <string name="notification_text">点击悬浮按钮即可截图上传</string>
+</resources>
